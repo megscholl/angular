@@ -3,8 +3,12 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  // styleUrls: ['./app.component.css']
+  styles: [`
+  h2 {
+    color: rgb(174, 26, 100);
+  }
+  `]
 })
 export class AppComponent {
-  title = 'my-udemy-app';
 }
